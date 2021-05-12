@@ -1,375 +1,312 @@
-#LUPIN{
-    font-family:Crimson Text; 
-    font-size: 45px;
-    color:black;;
-    text-shadow:2px 2px 2px bisque;;
-    text-align: center;
-    padding-right: 4px;
-    height:100px;
-    padding: 12px;
-    box-sizing: border-box;
-    position:relative; 
-    transition: all 2s;
-    transition: transform 2s,color 3s;
-    }
+#LUPIN {
+  font-family: Crimson Text;
+  font-size: 45px;
+  color: black;
+  text-shadow: 2px 2px 2px bisque;
+  text-align: center;
+  padding-right: 4px;
+  height: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 2s;
+  transition: transform 2s,color 3s; }
 
-#LUPIN:hover{
-        transform: scale(1.1,1.2);
-        color: rgb(226, 167, 90);
-   
-       }    
-#principio{
+#LUPIN:hover {
+  transform: scale(1.1, 1.2);
+  color: #e2a75a; }
 
-    width: auto;
-    height: 100px;
-    padding-bottom: 15px;
-    background-color: rgb(240, 204, 160);
-}
-body{
+#principio {
+  width: auto;
+  height: 100px;
+  padding-bottom: 15px;
+  background-color: #f0cca0; }
 
-    background-color: rgb(240, 204, 160);
-    margin-top: 6%;
-}
+body {
+  background-color: #f0cca0;
+  margin-top: 6%;
+  background-color: #f0cca0; }
 
 #botonera {
-    background-color: burlywood;
-    font: bold 90% monospace;
-    font-size: 20px;
-}  
+  background-color: burlywood;
+  font: bold 90% monospace;
+  font-size: 20px; }
 
-#logo{
-    border: 6px solid;
-    color: bisque;
-    background-position:center;
-    height: 100px;
-    display: inline-block;
-    margin-top: -11px;
-    margin-bottom: 6px;
-    float: unset;
-    box-sizing: border-box;
-    transform: rotateZ(90deg);
+#logo {
+  border: 6px solid;
+  color: bisque;
+  background-position: center;
+  height: 100px;
+  display: inline-block;
+  margin-top: -11px;
+  margin-bottom: 6px;
+  float: unset;
+  box-sizing: border-box;
+  transform: rotateZ(90deg); }
 
-}
-#salon{
-    border: 8px solid; 
-    color: black;
-    background-position: center;
-    width: 65%;
-    background-size: cover;
-    background-color: rgb(240, 204, 160);
-    margin-bottom: 6px;
-     
+#salon {
+  border: 8px solid;
+  color: black;
+  background-position: center;
+  width: 65%;
+  background-size: cover;
+  background-color: #f0cca0;
+  margin-bottom: 6px; }
 
-}
-#foto{
+#foto {
+  background-color: #f0cca0; }
 
-    background-color: rgb(240, 204, 160);
-    
-}
-#pie ul   a {
+#pie ul a {
+  color: #0471b1;
+  font: bold 90% monospace;
+  font-size: 15px; }
 
-    color:rgb(4, 113, 177);
-    font: bold 90% monospace;
-    font-size: 15px;
-    
-}
+#opciones {
+  background-color: bisque;
+  text-align: center; }
 
+#foto {
+  text-align: center;
+  background-color: #f0cca0;
+  margin-top: -8px; }
 
-#opciones{
+#agrego {
+  background-color: white; }
 
-background-color: bisque;
-text-align: center;
+#final {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #f0cca0, white); }
 
-}
-#foto{
-
-    text-align: center;
-    background-color: rgb(240, 204, 160);
-    margin-top: -8px;
-     
-     
-}
-
-#agrego{
-
-    background-color: white;
-}
-#final{
-
-    text-align: center;
-    background-image: linear-gradient(to bottom,rgb(240, 204, 160), white );
-}
-
-#H3,H4,H2,h1{
-
-    text-align: center;
-    background-color: rgb(240, 204, 160);
-}
+#H3, H4, H2, h1 {
+  text-align: center;
+  background-color: #f0cca0; }
 
 /*Menu*/
-#menu{
-    font:bold 90% monospace;
-    font-size: 35px;
-    color: black#166083c5;
-    text-align: center;
-     
+#menu {
+  font: bold 90% monospace;
+  font-size: 35px;
+  color: black #166083c5;
+  text-align: center; }
 
-}
+#uno {
+  background-color: #f0cca0;
+  margin-top: -8px; }
 
-#uno{
+#table, tr, td {
+  border: 1px solid black;
+  font: bold 100% monospace;
+  font-size: 15px;
+  color: black #116a94c5;
+  text-align: center;
+  line-height: 15px; }
 
-    background-color:  rgb(240, 204, 160);
-    margin-top: -8px;
-}
-#table,tr, td {
-	border: 1px solid black;
-    font: bold 100% monospace;
-    font-size: 15px;
-    color: black#116a94c5;
-    text-align: center;
-    line-height: 15px
-    
-    
-}
-#dos{
+#dos {
+  text-align: center;
+  background-color: #f0cca0; }
 
-    text-align: center;
-    background-color: rgb(240, 204, 160) ;
-}
-#imageen{
-    border: 2px solid; 
-    color: bisque;
-    margin-top: -4px;
-    background-position: bottom center;
-    width: 30%;
-    animation-name: latido;
-    animation-iteration-count: infinito;
-    animation-timing-function: ease-in;
-    animation-duration: 4s;
-    animation-delay: 0s;  
-    margin-bottom: 10px;
+#imageen {
+  border: 2px solid;
+  color: bisque;
+  margin-top: -4px;
+  background-position: bottom center;
+  width: 30%;
+  animation-name: latido;
+  animation-iteration-count: infinito;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  margin-bottom: 10px; }
 
-}
+@keyframes latido {
+  0% {
+    width: 400px; }
+  20% {
+    width: 500px; }
+  40% {
+    width: 600px; }
+  60% {
+    width: 700px; }
+  80% {
+    width: 800px; } }
 
-@keyframes  latido{
+#uno {
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: inherit; }
 
-    0%{width: 400px;}
-    20%{width: 500px;}
-    40%{width:600px;}
-    60%{width: 700px;}
-    80%{width:800px;}
-   
-}
-#uno{
-    text-align: center;
-    overflow: hidden;
-    height: auto;
-    width: auto;
-    display:flex; 
-    flex-direction:inherit;
-   
-}
 /*Reserva*/
+#reserva {
+  font: bold 90% monospace;
+  font-size: 35px;
+  color: black #166083c5;
+  text-align: center;
+  margin-top: -9px; }
 
-#reserva{
-    font:bold 90% monospace;
-    font-size: 35px;
-    color: black#166083c5;
-    text-align: center;
-    margin-top: -11px;
-    
+#tres {
+  background-color: #f0cca0;
+  margin-top: -26px;
+  margin-bottom: -8px; }
 
-}
+#formulario {
+  border: 1px solid black;
+  font: bold 100% monospace;
+  color: white;
+  font-size: 15px;
+  background-color: #f0cca0; }
 
-#tres{
+#cuatro {
+  text-align: center;
+  background-color: #f0cca0;
+  background-image: url(SASSCLASS/imagenes/mesa.jpg);
+  border: 4px solid #f0cca0;
+  background-repeat: round; }
 
-    background-color:  rgb(240, 204, 160);
-    margin-top: -24px;
-    margin-bottom: -8px;
-}
-#formulario{
-    border: 1px solid black;
-    font: bold 100% monospace;
-    color: white;
-    font-size: 15px;
-    background-color: rgb(240, 204, 160);
-    
-
-}
-#cuatro{
-
-    text-align: center;
-    background-color:rgb(240, 204, 160);
-    background-image: url(imagenes/mesa.jpg);
-    border: 4px solid  rgb(240, 204, 160);
-    background-repeat:  round;
-}
 /*Nosotros*/
-#info{
-    font: bold 90% monospace;
-    font-size: 35px;
-    color: black#166083c5;
-    text-transform: capitalize;
-    margin-top: -24px;
+#hist__infouno {
+  font: bold 90% monospace;
+  font-size: 35px;
+  color: black #166083c5;
+  text-transform: capitalize;
+  margin-top: 5px; }
 
-}
-#Historia{
-    font: bold 90% monospace;
-    font-size: 20px;
-    color: black#096b999c;
-    text-align: center;
-    text-transform: capitalize;
-    background-color: rgb(240, 204, 160);
-    height: auto;
-     
+#hist__infodos {
+  font: bold 90% monospace;
+  font-size: 20px;
+  color: black #096b999c;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #f0cca0;
+  height: auto; }
 
-}
-#imgcar{
+#Historia {
+  background-color: #f0cca0;
+  font: bold 90% monospace;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  height: auto;
+  margin-top: -25px;
+  margin-bottom: -10px; }
 
-    width: 100%;
-    height: 600px;
-}
+#imgcar {
+  width: 100%;
+  height: 600px; }
 
-#platouno{
-        border: 4px solid; 
-        color: bisque;
-        background-position: bottom center;
-        width: 5%;
-        background-size: cover;
-        box-sizing: border-box;
-        margin-top: -20px;
-       
-}
+#platouno {
+  border: 4px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 5%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: -20px; }
 
-#platotres{
+#platotres {
+  border: 4px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 5%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: -16px; }
 
-        border: 4px solid; 
-        color: bisque;
-        background-position: bottom center;
-        width: 5%;
-        background-size: cover;
-        box-sizing: border-box;
-        margin-top: -16px;
-}
+#platocuatro {
+  border: 4px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 5%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: -16px; }
 
-#platocuatro{
-
-        border: 4px solid; 
-        color: bisque;
-        background-position: bottom center;
-        width: 5%;
-        background-size: cover;
-        box-sizing: border-box;
-        margin-top: -16px;
-}
-
-#platosiete{
-
-    border: 4px solid; 
-    color: bisque;
-    background-position: bottom center;
-    width: 5%;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-top: -16px;
-    
-}
-
+#platosiete {
+  border: 4px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 5%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: -16px; }
 
 /*Contacto*/
-#send{
-    font: bold 90% monospace;
-    font-size: 35px;
-    color: black#166083c5;
-    text-align: center;
-    background-color: rgb(240, 204, 160);
-    margin-top: -5px;
-    
-}
+#send {
+  font: bold 90% monospace;
+  font-size: 35px;
+  color: black #166083c5;
+  text-align: center;
+  background-color: #f0cca0;
+  margin-top: -7px; }
 
-#contacto{
-    font: bold 90% monospace;
-    font-size: 15px;
-    color: black#096b999c;
-    background-color:  rgb(240, 204, 160);
-}
+#formulario {
+  background-color: #f0cca0; }
 
-#btnbtn-primary{
-    font-size: 15px;
-    background-color: bisque;
+#contacto {
+  font: bold 90% monospace;
+  font-size: 15px;
+  color: black #096b999c;
+  background-color: #f0cca0;
+  max-width: 400px;
+  margin: auto; }
 
-}
+#btnbtn-primary {
+  font-size: 15px;
+  background-color: bisque; }
 
-#seis{
+#seis {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  position: relative;
+  font-size: 10px;
+  background-color: #f0cca0;
+  margin-top: -8px; }
 
-    text-align: center;
-    width: 800px;
-    margin: auto;
-    max-width: 100%;
-    margin-top: 5px;
-    padding: 20px;
-    position: relative;
-    font-size: 10px;
-    background-color:  rgb(240, 204, 160);
-    margin-top: -2px;
-}
+#mostrar {
+  text-align: center;
+  background-color: #f0cca0; }
 
+#amigos {
+  border: 2px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 25%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 6px; }
 
-#mostrar{
+#barra {
+  border: 2px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 25%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 6px; }
 
-    text-align: center;
-    background-color:  rgb(240, 204, 160);
-}
+#pareja {
+  border: 2px solid;
+  color: bisque;
+  background-position: bottom center;
+  width: 25%;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 6px; }
 
-#amigos{
-    border: 2px solid; 
-    color: bisque;
-    background-position: bottom center;
-    width: 25%;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 6px;
-}
-
-#barra{
-    border: 2px solid; 
-    color: bisque;
-    background-position: bottom center;
-    width: 25%;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 6px;
-}
-
-#pareja{
-    border: 2px solid; 
-    color: bisque;
-    background-position: bottom center;
-    width: 25%;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 6px;
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px){
-
-    #navjustify-content-center{
-
-            width: 80%;
-            height:auto;
-            position: fixed;
-
-    }
-    
-    #dropdown-menu{
-
-        width: 80%;
-        height:auto;
-        position: fixed;
-    }
-}
-
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  #navjustify-content-center {
+    width: 80%;
+    height: auto;
+    position: fixed; }
+  #dropdown-menu {
+    width: 80%;
+    height: auto;
+    position: fixed; } }
