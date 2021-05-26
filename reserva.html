@@ -14,7 +14,7 @@
     </head>
     
     <body>
-        <header>
+        <header style="background-color: #f0cca0;">
 
             <section id="principio">
                 <div id="LUPIN"><strong>LUPIN</strong>
@@ -55,96 +55,112 @@
     
 <br>
 
-        <section id="tres">
-            <div id="reserva">Reserva
-            </div>   
-            <h3>No te quedes sin tu lugar</h3> 
-        </section>
-
-        <section id="cuatro">
+<section id="tres" style="text-align: center;">
         
-            <div= id="formulario">    
-                <form>
-                    <fieldset>
-                      <legend>Datos personales</legend>
-                      <label for="001">Nombre</label>
-                      <input type="text" id="nombre" name="001">
+            <h2>No te quedes sin tu lugar</h2> 
+        
+        
+    <div id="reserva"style="max-width: 400px; text-align: center;font: bold 90% monospace; font-size: 17px; justify-content: center; margin-left: 450px; margin-top: 15px;>  
+        <form action="" class="formulario"></form>
+        <div class="form-floating mb-3">
+            
+            <input type="email" class="form-control" id="floatingInput" placeholder="Nombre">
+            <label for="floatingInput">Nombre y Apellido</label>
+        </div>
+        
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Mail">
+            <label for="floatingPassword">Mail</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Telefono">
+            <label for="floatingPassword">Telefono</label>
+        </div>
 
-                      <label for="002">Apellido</label>
-                      <input type="text" id="apellido" name="002">
+        <select class="form-select" style="font: bold 90% monospace; margin-bottom: 10px;" aria-label="Default select example">
+            <option selected>Elige un dia</option>
+            <option value="1">Martes</option>
+            <option value="2">Miercoles</option>
+            <option value="3">Jueves</option>
+            <option value="3">Viernes</option>
+            <option value="3">Sabado</option>
+            <option value="3">Domingo</option>
+        </select>    
 
-                      <label for="003">Telefono</label>
-                      <input type="tel" id="telefono" name="003">
+        <select class="form-select" style="font: bold 90% monospace;margin-bottom: 10px;" aria-label="Default select example">
+            <option selected>Elige un Horario</option>
+            <option value="1">20:00 hs</option>
+            <option value="2">21:00 hs</option>
+            <option value="3">22:00 hs</option>
+            <option value="3">23:00 hs</option>
+        </select>   
 
-                    </fieldset>
+        <select class="form-select" style="font: bold 90% monospace;margin-bottom: 10px;" aria-label="Default select example">
+            <option selected>Elige un Lugar</option>
+            <option value="1">Salon</option>
+            <option value="2">Patio</option>
+            <option value="3">Terraza</option>
+        </select> 
+
+        <select class="form-select" style="font: bold 90% monospace;margin-bottom: 10px;" aria-label="Default select example">
+            <option selected>Elige un Asiento</option>
+            <option value="1">Mesa</option>
+            <option value="2">Box</option>
+            <option value="3">Banco</option>
+        </select> 
+      
+    </div>
+   
+       
+       <input class="btn btn-outline-*" style="font:bold 90% monospace; border-color: black; margin-bottom: 3px; margin-top: 5px;" type="Enviar" value="Enviar">
+    </fieldset>
+    </form>                   
+           
+</section>
+
+<section id="caja">
+
+    <div class="container-fluid">
+     <ul>
+        <div  class="row">
+            <div class="col.md-1 col-md-4">
+                <a><img src="imagenes/box.jpg" class="img-thumbnail"  id="box" alt=""></a>
+            </div> 
+            <div class="col.md-1 col-md-4">
+                <a><img src="imagenes/box.jpg" class="img-thumbnail" id="box" alt=""></a>
+            </div> 
+            <div class="col.md-1 col-md-4">
+                <a><img src="imagenes/box.jpg" class="img-thumbnail" id="box" alt=""></a>
+            </div> 
+     </ul>    
+        </div>
    
 
-                    <fieldset>
-                        <legend>Elige un dia</legend>
-                            <select name="dia">
-                                <option value="Martes">Martes</option>
-                                <option value="Miercoles">Miercoles</option>
-                                <option value="Jueves">Jueves</option>
-                                <option value="Viernes">Viernes</option>
-                                <option value="Sabado">Sabado</option>
-                                <option value="Domingo">Domingo</option>
-
-                            </select>
-
-                        <legend>Horario</legend>
-                            <select name="horario">
-                                <option value="20:00">20:00</option>
-                                <option value="21:00">21:00</option>
-                                <option value="22:00">22:00</option>
-                                <option value="23:00">23:00</option>
-                            </select>
-
-
-                         <h4>Selecciona el lugar</h4>
-                         <label for="Dentro">Salon</label>
-                         <input type="radio" id="1" name="zona" value="Salon">
-                         <label for="Patio">Patio</label>
-                         <input type="radio" id="2" name="zona" value="Patio">
-                         <label for="Terraza">Terraza</label>
-                         <input type="radio" id="3" name="zona" value="Terraza">
-
-                         <h4>Selecciona el asiento</h4>
-                         <label for="Mesa">Mesa</label>
-                         <input type="checkbox" id="Mesa" name="Mesa" value="Mesa">
-                         <label for="Box">Box</label>
-                         <input type="checkbox" id="Box" name="Box" value="Box">
-                         <label for="Banco">Banco</label>
-                         <input type="checkbox" id="Banco" name="Banco" value="Banco">
-
-                    </fieldset>
-                        <input type="submit" value="Limpiar" style="font-weight: 600;">
-                        <input type="reset" value="Enviar" style="font-weight: 600;">
-
-                </form>
-                
-            </div>
-        </section>
-        </header>
+    </div>      
+</section>
+    
+</header>
        
-<footer>
-    <section id="final">
-        <div class="container">
-           <div class="row"> 
-            <ul class="pie">
-                <a href= "" style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Direccion:</a> Av. del Libertador 15089</a>
-                <a href= ""style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Mapa</i></a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13157.28114278763!2d-58.522110401359036!3d-34.46939835064408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb17246fb6a97%3A0xfb620797d8454d8c!2sResidente!5e0!3m2!1ses!2sar!4v1619388318833!5m2!1ses!2sar" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <a href= "http://instagram.com"style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;"><i class="fab fa-instagram" >Instagram</i></a>
-                <a href= "http://facebook.com"style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;"><i class="fab fa-facebook-square" >Facebook</i></a>
-                <a href= ""style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Telefono:</a> 011 4747-0606</a>
-                <img>
-                <img src="imagenes/logo.jpg" id="logo" alt="logo" link href="index.html">
-                </img>
-            </ul>
-           </div>
-        </div>   
-    </section>
-</footer> 
-
+        <footer>
+            <section id="final">
+                <div class="container">
+                    <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13157.28114278763!2d-58.522110401359036!3d-34.46939835064408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb17246fb6a97%3A0xfb620797d8454d8c!2sResidente!5e0!3m2!1ses!2sar!4v1619388318833!5m2!1ses!2sar" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                   <div class="row"> 
+                    <ul class="pie">
+                        <a href= "" style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Direccion:</a> Av. del Libertador 15089</a>
+                        <a href= "http://instagram.com"style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;"><i class="fab fa-instagram">Instagram</i></a>
+                        <a href= "http://facebook.com"style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;"><i class="fab fa-facebook-square" >Facebook</i></a>
+                        <a href= ""style="color: black;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Telefono:</a> 011 4747-0606</a>
+                        <img>
+                        <img src="imagenes/logo.jpg" id="logo" alt="logo" link href="index.html">
+                        </img>
+                    </ul>
+                   </div>
+                </div>   
+            </section>
+        </footer>
         
     
     </body>
